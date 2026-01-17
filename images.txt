@@ -1,9 +1,17 @@
-nginx
-#支持私库
+# 基础镜像
+nginx:latest
+
+# 私有/第三方仓库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+
+# OpenMetadata
 openmetadata/db:1.11.5
-elasticsearch:8.19.9
 openmetadata/server:1.11.5
 openmetadata/ingestion:1.11.5
-#支持指定架构
---platform=linux
+
+# Elasticsearch（官方 1.11.5 推荐 8.x）
+elasticsearch:8.9.0
+
+# 指定架构示例
+--platform=linux/arm64 xiaoyaliu/alist:latest
+--platform=linux/amd64 nginx:1.25
