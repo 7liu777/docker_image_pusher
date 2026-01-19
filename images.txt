@@ -11,4 +11,4 @@ elasticsearch:8.9.0
 crpi-v0gxvui5utc0nqac.cn-hangzhou.personal.cr.aliyuncs.com
 
 # 指定架构示例
---platform=linux/arm64
+--platform=linux/amd64
