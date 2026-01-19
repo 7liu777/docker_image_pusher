@@ -10,5 +10,5 @@ elasticsearch:8.9.0
 # 私有/第三方仓库
 crpi-v0gxvui5utc0nqac.cn-hangzhou.personal.cr.aliyuncs.com
 
-# 指定架构示例 amd
+# 指定架构示例 amd64
 --platform=linux/amd64
